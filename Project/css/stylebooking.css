@@ -1,0 +1,224 @@
+#site-header {
+    margin: 0 0 30px 0;
+}
+
+#site-header h1 {
+    font-size: 31px;
+    font-weight: 300;
+    padding: 40px 0;
+    position: relative;
+
+    color: #3e5136;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+#site-header h1:hover span.last-span,
+#site-header h1 span.is-open {
+    left: 363px;
+}
+
+#site-header h1 em {
+    font-size: 16px;
+    font-style: normal;
+    vertical-align: middle;
+}
+
+.booking-container {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.bg-img{
+    width:100%;
+
+}
+
+#booking-category {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.appointments {
+
+    border-radius: 30px;
+    background-color: #bdc6ba;
+    margin-right: 10px;
+
+
+    width: 35%;
+    margin-right: 10px;
+    padding-left: 10%;
+    border-radius: 30px;
+  background-color: #bdc6ba;
+  margin-right: 10px;
+  width: 35%;
+  margin-right: 10px;
+  padding-left: 10%;
+  
+  justify-content: center;
+
+}
+
+.appointments h3 {
+    justify-content: center;
+    font-size: 1rem; /*to make it responsive with bigger and snaller screens*/
+  margin: 0; 
+  padding: 10px 0; 
+  text-align: center; 
+  
+    
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+
+}
+
+@media (min-width: 768px) { /* Add a media query for larger screens */
+    .appointments h3 {
+      font-size: 1.25rem; /* Increase the font size for larger screens */
+      padding: 20px 0; /* Increase the padding for larger screens */
+    }
+  }
+
+.appoitments:last-child {
+    margin-right: 0;
+}
+
+
+a {
+    color: #000;
+    text-decoration: none;
+
+    -webkit-transition: color .2s linear;
+    -moz-transition: color .2s linear;
+    -ms-transition: color .2s linear;
+    -o-transition: color .2s linear;
+    transition: color .2s linear;
+}
+
+a:hover {
+    color: #3e5136;
+}
+
+#booking-images .appointments {
+    background-color: none;
+}
+
+.app-imgs {
+    border-radius: 10px;
+
+    margin-right: 10px;
+
+
+    width: 35%;
+    margin-right: 10px;
+    padding-left: 10%;
+
+
+
+}
+
+
+  body {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+  }
+  .mb-5 {
+    margin-bottom: 20px;
+  }
+  .pt-3 {
+    padding-top: 12px;
+  }
+  .main-wrapper {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .form-wrapper {
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    background: white;
+  }
+  .form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #07074d;
+    margin-bottom: 12px;
+  }
+  .form-label-2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .form-input {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+  }
+  .form-input:focus {
+    border-color: #3e5136;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .btn {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 600;
+    background-color: #3e5136;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+  }
+  .btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .w-full {
+    width: 100%;
+  }
+  @media (min-width: 540px) {
+    .sm\:w-half {
+      width: 50%;
+    }
+  }
+
+  .clickable-div{
+    cursor: pointer;
+  }

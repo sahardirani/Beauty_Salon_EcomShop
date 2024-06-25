@@ -1,0 +1,31 @@
+.product-image {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+input[type="text"],
+input[type="number"],
+select {
+    margin-bottom: 20px;
+}
+
+#CategoryForm {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px
+}
+
+#SearchProduct {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px
+}

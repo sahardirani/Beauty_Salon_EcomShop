@@ -1,0 +1,172 @@
+h2 {
+    text-decoration: underline;
+    color: #7a0800;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+
+
+.row {
+    height: 40px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    background: #0f67a7;
+}
+
+#dropdown {
+    display: inline-block;
+    height: inherit;
+    cursor: pointer;
+    line-height: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    background: #0c284a;
+    color: white;
+    width: 80px;
+    text-align: center;
+}
+
+
+
+
+
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #1f3e68;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+#dropdown .dropdown-item:hover {
+    background-color: rgb(15, 40, 73);
+}
+
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+#dropdown ul {
+    padding: 0;
+    margin: 0;
+}
+
+#dropdown li {
+    font-weight: normal;
+    list-style-type: none;
+    background: #174878;
+}
+
+
+.dropdown-content a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.row.header {
+    position: fixed;
+    top: 0;
+}
+
+.title {
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+
+
+#user-welcome {
+    display: inline;
+    float: right;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+}
+
+
+
+#SignIN-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Set the height of the container to the full viewport height */
+}
+
+label {
+    margin-bottom: 10px;
+    /* Add a small margin below each label */
+}
+
+input[type=text],
+input[type=password] {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    /* Set a max-width to prevent the inputs from becoming too wide */
+}
+
+
+input,
+select {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.butn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+.sale-label {
+    margin-bottom: 10px;
+}
+
+.sale-input {
+    margin-bottom: 20px;
+    width: 100%;
+    display: none;
+}
+
+#product_image {
+    margin-bottom: 30px;
+}
+
+#addProductForm {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+}

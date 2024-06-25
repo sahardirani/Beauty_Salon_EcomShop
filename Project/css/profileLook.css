@@ -1,0 +1,25 @@
+body {
+    background-image: url('../images/bg-login.png');
+    /* Replace with the path to your image file */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    background-size: cover;
+    /* Resizes the image to cover the entire background */
+    background-position: center;
+    /* Centers the image in the background */
+    min-height: 100vh;
+    /* Set the minimum height to 100% of the viewport height */
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 80%;
+    /* Add this line */
+    margin: 0 auto;
+    /* Add this line to center the content horizontally */
+}
